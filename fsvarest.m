@@ -45,9 +45,9 @@ function [fsvar,Path,L] = fsvarest(Yr,fsvar0,opts)
 %          Siti Balqis Samdin, Universiti Teknologi Malaysia
 %
 % Reference: [1] S. B. Samdin, C.-M. Ting, H. Ombao, and S.-H Salleh,
-%           ìA Unified estimation framework for state-related changes
-%           in effective brain connectivity,î IEEE Trans. Biomed. Eng. 2017
-%            [2] K. Murphy, ìSwitching kalman filters,î 1998.
+%           ‚ÄúA Unified estimation framework for state-related changes
+%           in effective brain connectivity,‚Äù IEEE Trans. Biomed. Eng. 2017
+%            [2] K. Murphy, ‚ÄúSwitching kalman filters,‚Äù 1998.
 %--------------------------------------------------------------------------
 
 % Initialize parameters
@@ -226,11 +226,11 @@ end
     Pshat(:,:,:,T) = Phat(:,:,:,T);  
     xshat_full(:,T)   = xhat_full(:,T);
     Pshat_full(:,:,T) = Phat_full(:,:,T);
+    S_Mttp1T = zeros(M,M,T);
             
 for t=T-1:-1:1
     S_n = zeros(M,1);
     S_m = zeros(M,M);
-    S_Mttp1T = zeros(M,M,T);
    
     for k=1:M
         A_k = A(:,:,k);                   
