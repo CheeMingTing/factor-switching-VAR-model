@@ -6,6 +6,6 @@ f-SVAR (Factor switching vector autoregressive (VAR) model) Toolbox is a Matlab 
 
 For more detailed description and applications, please refer to the User Manual and references:
 
-1.	C.-M. Ting, H. Ombao, S. B. Samdin and Sh-H. Salleh, “Estimating dynamic connectivity states in fMRI using regime-switching factor models,” IEEE Trans. Med. Imag., 2017.
+1.	C.-M. Ting, H. Ombao, S. B. Samdin and Sh-H. Salleh, “[Estimating dynamic connectivity states in fMRI using regime-switching factor models](https://ieeexplore.ieee.org/document/8166781),” IEEE Trans. Med. Imag., 37(4), pp. 1011 - 1023, 2018.
 2.	S. B. Samdin, C.-M. Ting, H. Ombao, and Sh-H. Salleh, “A unified estimation framework for state-related changes in effective brain connectivity,” IEEE Trans. Biomed. Eng., vol. 64, no. 4, pp. 844–858, 2017.
 3.	C.-M. Ting, A.-K. Seghouane, S.-H. Salleh, and A. M. Noor, “Estimating effective connectivity from fMRI data using factor-based subspace autoregressive models,” IEEE Sig. Process. Lett., vol. 22, no. 6, pp. 757–761, 2014.
