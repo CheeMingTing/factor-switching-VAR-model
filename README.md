@@ -1,6 +1,6 @@
-# f-SVAR
+# Factor switching vector autoregressive (f-SVAR) model
 
-Estimating dynamic connectivity states in neuroimaging data using regime-switching factor models
+`Estimating dynamic connectivity states in neuroimaging data using regime-switching factor models`
 
 f-SVAR (Factor switching vector autoregressive (VAR) model) Toolbox is a Matlab package to estimate dynamic, directed functional connectivity states in high-dimensional neuroimaging time series data (fMRI, EEG etc). The underlying method uses a regime-switching factor model. The script example_simulation.m generates random data from a 2-state switching VAR(1) model, estimates the f-SVAR model, and plots estimates of latent state sequence and coefficient matrices as compared to the ground-truth. The script example_fmri.m loads resting-state fMRI time series data of three subjects, produces f-SVAR estimators, and plot the estimated state sequence for each subject, and common state connectivity matrices of 96 regions of interest (ROIs) partitioned into six resting-state networks. For more details refer to [Ting et. al. 2018](https://ieeexplore.ieee.org/document/8166781)
 
